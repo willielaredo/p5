@@ -1,6 +1,6 @@
 let width = 2000
 let height = 2000
-var death_grips_img
+// var death_grips_img
 var pizza_sound
 var tamale_sound
 var falafel_sound
@@ -8,15 +8,15 @@ var polenta_sound
 var tamale_img
 
 function preload() {
-    death_grips_img = loadImage('death_grips_pixelated.png')
-    pizza_sound = loadSound('pizza.ogg')
-    tamale_sound = loadSound('tamale.ogg')
-    falafel_sound = loadSound('falafel.ogg')
-    polenta_sound = loadSound('polenta.ogg')
-    tamale_img = loadImage('tamale.jpg')
-    pizza_img = loadImage('pizza.jpg')
-    falafel_img = loadImage('falafel.jpg')
-    polenta_img = loadImage('polenta.jpg')
+    // death_grips_img = loadImage('death_grips_pixelated.png')
+    pizza_sound = loadSound('../assets/sounds/pizza.ogg')
+    tamale_sound = loadSound('../assets/sounds/tamale.ogg')
+    falafel_sound = loadSound('../assets/sounds/falafel.ogg')
+    polenta_sound = loadSound('../assets/sounds/polenta.ogg')
+    tamale_img = loadImage('../assets/images/tamale.jpg')
+    pizza_img = loadImage('../assets/images/pizza.jpg')
+    falafel_img = loadImage('../assets/images/falafel.jpg')
+    polenta_img = loadImage('../assets/images/polenta.jpg')
 }
 
 function setup() {
